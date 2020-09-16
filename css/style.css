@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(45deg, #dc4587, #ff8941);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+}
+#logo{
+width: 100px;
+}
+.container-login{
+    background-color: #fff;
+    width: 400Px;
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.header{
+    text-align: center;
+}
+h1{
+    font-size: 65px;
+    color: #2c2c2c;
+}
+form{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+input{
+    padding-left: 48px;
+    padding-right: 48px;
+    min-height: 54px;
+    color:#545454;
+    border:2px solid #5a5353;
+    margin: 10px 0;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 900;
+    outline: none;
+    border-radius: 30px;
+    -webkit-border-radius :30px;
+    -moz-border-radius :30px;
+    -ms-border-radius :30px;
+    -o-border-radius :30px;
+}
+input[type=submit]{
+    text-transform: uppercase;
+    background-image: linear-gradient(45deg, #ff7954af, #fd267cf3);
+    color:#fff;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius :5px;
+    -moz-border-radius :5px;
+    -ms-border-radius :5px;
+    -o-border-radius :5px;
+    box-shadow: 0 1px 6px 0 rgba( 0, 0, 0, .27);
+} 
+
+.tindercat-card{
+    background-color: #fff;
+    height: 400px;
+    width: 400px;
+    border-radius: 5px;
+    -webkit-border-radius :5px;
+    -moz-border-radius :5px;
+    -ms-border-radius :5px;
+    -o-border-radius :5px;
+}
+.imgProfil{
+    height: 300px;
+    background-color: pink;
+    background-image:url('../img/karina-vorozheeva-rW-I87aPY5Y-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+}
+h2{
+text-align: center;
+font-size: 1.8rem;
+color:#2c2c2c;
+}
+.nav-profil{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.nav-profil>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    cursor: pointer;
+    box-shadow: 0 1px 6px 0 rgba( 0, 0, 0, .27);
+background-color: red;
+height: 80px;
+width: 80px;
+font-size: 2rem;
+border-radius: 100%;
+    -webkit-border-radius :100%;
+    -moz-border-radius :100%;
+    -ms-border-radius :100%;
+    -o-border-radius :100%;
+    transition:  all .3s;
+    -webkit-border-radius :all .3s;
+    -moz-border-radius :all .3s;
+    -ms-border-radius :all .3s;
+    -o-border-radius :all .3s;
+}
+#like{
+    background-color: rgb(26, 160, 84);
+    border: 2px solid green;
+}
+#run{
+    background-color: #cf6346af;
+    border: 2px solid rgb(199, 57, 69);
+}
+#like:hover{
+    background-color: rgb(29, 100, 60);
+}
+#run:hover{
+    background-color: #99462faf;
+}
+#circle{
+    height: 120px;
+    width: 120px;
+    border: 5px solid#f3f3f3;
+    border-top-color: #dc45876c;
+    border-radius: 100% ;
+    -webkit-border-radius :100%;
+    -moz-border-radius :100%;
+    -ms-border-radius :100%;
+    -o-border-radius :100%;
+    animation: spin 2s linear infinite;
+    -webkit-animation: spin 2s linear infinite;
+}
+
+@keyframes spin{
+    0%{ 
+        transform: rotate(0deg);
+        -webkit-transform : rotate(0deg); 
+        -moz-transform : rotate(0deg); 
+        -ms-transform : rotate(0deg);
+        -o-transform : rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+        -webkit-transform : rotate(360deg); 
+        -moz-transform : rotate(360deg); 
+        -ms-transform : rotate(360deg);
+        -o-transform : rotate(360deg);
+        }
+    }
