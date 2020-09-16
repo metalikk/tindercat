@@ -36,7 +36,7 @@ showProfil()
 function showProfil(){
     let randomNumber = Math.floor(Math.random() * 11 ) // genere un nombre aleatoire entre 0 et 11 ( 12 profiles)
     let include = false
- 
+
 if(printProfil.length < cats.length){
     if(!printProfil.includes(randomNumber)){ // si deux profiles similaire ne sont pas présents
         printProfil.push(randomNumber) // stocker les nombres aleatoires dans un tableau
