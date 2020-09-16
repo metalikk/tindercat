@@ -77,9 +77,12 @@ input[type=submit]{
 .imgProfil{
     height: 300px;
     background-color: pink;
-    background-image:url('../img/karina-vorozheeva-rW-I87aPY5Y-unsplash.jpg');
     background-position: center;
     background-size: cover;
+}
+.tindercat-card h3{
+    text-align: center;
+    padding-top: 180px;
 }
 h2{
 text-align: center;
